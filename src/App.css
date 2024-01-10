@@ -36,3 +36,150 @@
     transform: rotate(360deg);
   }
 }
+
+/* Home */
+
+.upperhome {
+  display:flex;
+  background-image:url(./Images/istockphoto-1132930261-612x612.jpg);
+  background-repeat:no-repeat;
+  background-size: 200vh 91.5vh;
+}
+
+#quizMeButton {
+  display:block;
+  margin: 10px auto 0 auto;
+}
+
+.sentences {
+  text-align:left;
+  width:50%;
+  border-style:solid;
+  border-width:thick;
+  border-color:#61dafb;
+  padding: 41.625vh 0 41.625vh 0;
+}
+
+.modes {
+  width:50%;
+  /* border-style:solid;
+  border-width:thick;
+  border-color:#282c34; */
+  border:thick solid black;
+  padding: 41.625vh 0 41.625vh 0;
+}
+
+#sentencemargin {
+  margin: 0 0 10px 20%;
+}
+
+#paragraphmargin {
+  margin: 0 0 0 20%;
+  font-weight:300;
+  font-size:15px;
+}
+
+.quizMe {
+  background-color:rgb(62, 144, 169);
+  border:none;
+  color:white;
+  padding: 7px 14px;
+  border-radius:5px;
+}
+
+.navigation {
+  margin: 0 10px 0 10px;
+  text-decoration:none;
+  font-size:small;
+  display:flex;
+  justify-content:space-between;
+}
+
+.navigationlink {
+  text-decoration:none;
+  color:black;
+  font-size:small;
+}
+
+.navigationbar {
+  text-decoration:none;
+  font-size:small;
+  display:flex;
+  align-items:center;
+  gap:10px;
+}
+
+.navigationall {
+  font-size:17px;
+}
+
+.quiz {
+  display:block;
+  text-align:left;
+  margin: 20px 0 0 5%;
+  width:44.5%;
+  border-width:thick;
+  border-style:solid;
+  border-color:rgb(62, 144, 169);
+  
+}
+
+#quizzes {
+  font-size:25px;
+}
+
+#quizzesdescription {
+  font-size:medium;
+  font-weight:100;
+}
+
+.quizbutton {
+  display:flex;
+  padding: 40vh 0 40vh 0;
+}
+
+.quizanimation {
+  width:100%;
+  background-image:url(./Images/200w.gif);
+  background-repeat:no-repeat;
+  background-size: 60vh 20vh;
+  background-position: 40vh 2vh;
+}
+
+.contactus {
+  display:flex;
+}
+
+.contacts {
+  width:50%;
+  text-align:left;
+  padding: 16.75vh 0 36.75vh 10px;
+  border-color:black;
+  border-width:10px;
+  border-style:solid;
+}
+
+#contact {
+  font-size:25px;
+}
+
+.contactmessage {
+  width:50%;
+  margin: 10px 0 10px 0;
+}
+
+.contactsend {
+  display:block;
+  background-color:#61dafb;
+  border:none;
+  color:white;
+  padding: 7px 14px;
+  border-radius:5px;
+}
+
+.contactimage {
+  background-image:url(./Images/photo-1538935732373-f7a495fea3f6.avif);
+  width:50%;
+  background-repeat:no-repeat;
+  background-size: 100% 93vh;
+}
