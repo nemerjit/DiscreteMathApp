@@ -99,6 +99,8 @@
   text-decoration:none;
   color:black;
   font-size:small;
+  display:flex;
+  align-items:center;
 }
 
 .navigationbar {
@@ -111,6 +113,23 @@
 
 .navigationall {
   font-size:17px;
+}
+
+.navigationlogo {
+  align-items:center;
+  display:flex;
+  background-image:url(./Images/ezgif-7-52f9f85a0e.gif);
+  width:75px;
+  height:125px;
+  background-size: cover;
+  clip-path: polygon(0% 50%, 100% 50%, 100% 100%, 0% 100%);
+  position: absolute;
+  top: -70px;
+}
+
+.navigationhome {
+  position:relative;
+  left:90px;
 }
 
 .quiz {
@@ -146,6 +165,29 @@
   background-position: 40vh 2vh;
 }
 
+ .quizcheckbox {
+  position:absolute;
+  background-color:rgb(62, 144, 169);
+  top:17px;
+  /*border-color:black;*/
+  /*border-style:solid;*/
+  display:block;
+  width:100%;
+}
+
+.quizcheckindividual {
+  background-color:rgb(62, 144, 169);
+ /*border-color:orange;*/
+  border-style:solid;
+  display:flex;
+  /*margin: 0px 100% 0px 0px;*/
+}
+
+.quizcheckindividualname {
+  background-color:rgb(62, 144, 169);
+  margin: 0px 0px 0px 0px;
+} 
+
 .contactus {
   display:flex;
 }
@@ -168,6 +210,16 @@
   margin: 10px 0 10px 0;
 }
 
+.contactmessageEmail {
+  width:50%;
+  margin: 10px 0 10px 0;
+}
+
+.contactmessageName {
+  width:50%;
+  margin: 10px 0 10px 0;
+}
+
 .contactsend {
   display:block;
   background-color:#61dafb;
@@ -182,4 +234,97 @@
   width:50%;
   background-repeat:no-repeat;
   background-size: 100% 93vh;
+}
+
+/*quizquestions.js*/
+
+.questiontitle {
+  font-size:large;
+  text-align:left;
+}
+
+.answer {
+  width:90%;
+}
+
+.answercontainer {
+  /*float: right;
+  clear: both;*/
+  display:flex;
+  justify-content:left;
+}
+
+.question {
+  background-color:white;
+  border-radius:10px;
+  border-style:solid;
+  border-color:#edeaea;
+  margin-left:40%;
+  padding: 2% 2%;
+}
+
+.questionNumber {
+  padding: 0px 6px 0px 6px;
+  border-radius:50%;
+  border-style:solid;
+  border-color:blue;
+  margin: 0 10px 0 0;
+}
+
+.quizmecolor {
+  background-color:#eaeaeadf;
+  min-height:89vh;
+  overflow:hidden;
+  scroll-behavior:none;
+  padding:2% 5%;
+}
+
+.bottombar {
+  bottom:0;
+  overflow:hidden;
+  position:fixed;
+  width:100%;
+  border-color:black;
+  border-style:solid;
+  display:flex;
+  justify-content:center;
+}
+
+.quiztime {
+  
+}
+
+.submitButton {
+  position:absolute;
+  right:0;
+}
+
+.quizSubmitbutton {
+  background-color:rgb(62, 144, 169);
+  border:none;
+  color:white;
+  border-radius:5px;
+  display:none;
+}
+
+.quizStartbutton {
+  background-color:rgb(62, 144, 169);
+  border:none;
+  color:white;
+  border-radius:5px;
+}
+
+.startButton {
+  position:absolute;
+  left:0;
+}
+
+.quizcategoriesbutton {
+  background-color:rgb(62, 144, 169);
+  position:fixed;
+  left:10px;
+  top:80px;
+  border:none;
+  color:white;
+  width:100px;
 }

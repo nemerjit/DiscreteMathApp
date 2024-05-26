@@ -5,8 +5,11 @@ function Navbar() {
     return (
         <div className='navigation'>
             <Link to='/' class='navigationlink'>
-                <h1>
-                    Logo Name 
+                <div class="navigationlogo">
+                    
+                </div>
+                <h1 class="navigationhome">
+                    Name 
                 </h1>
             </Link>
             <div className='navigationbar'>
@@ -18,9 +21,11 @@ function Navbar() {
                         Contact Us
                     </h1>
                 </Link>
-                <h1 class='navigationall'>
-                    Quiz Me
-                </h1>
+                <Link to='/quizme' class='navigationlink'>
+                    <h1 class='navigationall'>
+                        Quiz Me
+                    </h1>
+                </Link>
             </div>
         </div>
     )

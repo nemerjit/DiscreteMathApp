@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
 
 function Home() {
     return (
@@ -14,7 +15,9 @@ function Home() {
                 </div>
                 <div className="modes">
                     Description of Modes   
-                    <button class="quizMe" id="quizMeButton">Quiz Me</button>
+                    <Link to="/quizme">
+                        <button class="quizMe" id="quizMeButton">Quiz Me</button>
+                    </Link>
                 </div>
             </div>
             <div class='quizbutton'>
@@ -25,7 +28,9 @@ function Home() {
                     <h2 id='quizzesdescription'>
                         Description
                     </h2>
-                    <button class='quizMe'>Quiz Me</button>
+                    <Link to="/quizme">
+                        <button class='quizMe'>Quiz Me</button>
+                    </Link>
                 </div>
                 <div class='quizanimation'>
                     
