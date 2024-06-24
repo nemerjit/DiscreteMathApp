@@ -5,6 +5,7 @@ import Navbar from './Components/navbar.js'
 import Contactus from './Pages/contactus.js'
 import Quizme from './Pages/quizme.js'
 import QuizTopics from './Components/quiztopics.js';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
