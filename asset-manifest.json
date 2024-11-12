@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.137baf78.css",
-    "main.js": "/static/js/main.2242e99d.js",
-    "static/media/200w.gif": "/static/media/200w.1d28e2053be6100fc762.gif",
-    "static/media/photo-1538935732373-f7a495fea3f6.avif": "/static/media/photo-1538935732373-f7a495fea3f6.2c1f2531685437fccab3.avif",
-    "static/media/stupidtest.jpg": "/static/media/stupidtest.2f6f080ce16010183a9d.jpg",
-    "static/media/ezgif-7-52f9f85a0e.gif": "/static/media/ezgif-7-52f9f85a0e.23d064d0c0e59660b692.gif",
-    "static/media/istockphoto-1132930261-612x612.jpg": "/static/media/istockphoto-1132930261-612x612.6a020c6e9f8b6854b8dc.jpg",
-    "index.html": "/index.html",
-    "main.137baf78.css.map": "/static/css/main.137baf78.css.map",
-    "main.2242e99d.js.map": "/static/js/main.2242e99d.js.map"
+    "main.css": "/DiscreteMathApp/static/css/main.e2252e64.css",
+    "main.js": "/DiscreteMathApp/static/js/main.dbc26367.js",
+    "static/media/200w.gif": "/DiscreteMathApp/static/media/200w.1d28e2053be6100fc762.gif",
+    "static/media/photo-1538935732373-f7a495fea3f6.avif": "/DiscreteMathApp/static/media/photo-1538935732373-f7a495fea3f6.2c1f2531685437fccab3.avif",
+    "static/media/stupidtest.jpg": "/DiscreteMathApp/static/media/stupidtest.2f6f080ce16010183a9d.jpg",
+    "static/media/ezgif-7-52f9f85a0e.gif": "/DiscreteMathApp/static/media/ezgif-7-52f9f85a0e.23d064d0c0e59660b692.gif",
+    "static/media/istockphoto-1132930261-612x612.jpg": "/DiscreteMathApp/static/media/istockphoto-1132930261-612x612.6a020c6e9f8b6854b8dc.jpg",
+    "index.html": "/DiscreteMathApp/index.html",
+    "main.e2252e64.css.map": "/DiscreteMathApp/static/css/main.e2252e64.css.map",
+    "main.dbc26367.js.map": "/DiscreteMathApp/static/js/main.dbc26367.js.map"
   },
   "entrypoints": [
-    "static/css/main.137baf78.css",
-    "static/js/main.2242e99d.js"
+    "static/css/main.e2252e64.css",
+    "static/js/main.dbc26367.js"
   ]
 }
